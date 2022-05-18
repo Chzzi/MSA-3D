@@ -14,7 +14,7 @@ Multimodal Gesture Recognition](https://www.mdpi.com/1424-8220/22/6/2405)"
 This is the enviroment we used, you can install Python 3.* and Pytorch 1.* instead. 
 
 ## To prepare the data
-
+This experiment based on [Chalearn LAP IsoGD Database](http://www.cbsr.ia.ac.cn/users/jwan/database/isogd.html) and a dataset derive from IsoGD by using hand detector namely IsoGD_hand
 ```
 │IsoGD/                             │IsoGD_hand/
 ├──train/                           ├──train/
@@ -68,7 +68,7 @@ python feature_hand_output.py --test_data_root {test_folder_path of IsoGD_hand} 
 ```
 
 ## Score fusion
-Fuse global branch, depth branch and hand branch score
+Get the final result by fusing global branch features, depth branch features, and hand branch features.
 ```bash
 python score_fusion.py --global_feature_path {feature path of global branch} --depth_feature_path {feature path of depth branch} --hand_feature_path {feature path of hand branch} --groud_truth_path {test_ground_truth of IsoGD}
 ```
