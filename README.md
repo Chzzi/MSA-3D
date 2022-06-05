@@ -72,3 +72,13 @@ Get the final result by fusing global branch features, depth branch features, an
 ```bash
 python score_fusion.py --global_feature_path {feature path of global branch} --depth_feature_path {feature path of depth branch} --hand_feature_path {feature path of hand branch} --groud_truth_path {test_ground_truth of IsoGD}
 ```
+
+# Citation
+```
+@inproceedings{chen2022MSA3D,
+      title={Multi-Scale Attention 3D Convolutional Network for Multimodal Gesture Recognition}, 
+      author={Huizhou Chen and Yunnan Li and Huijuan Fang and Wentian Xin and Zixiang Lu and Qiguang Miao},
+      journal={Sensors},
+      year={2022},
+}
+```
