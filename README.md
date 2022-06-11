@@ -75,10 +75,14 @@ python score_fusion.py --global_feature_path {feature path of global branch} --d
 
 # Citation
 ```
-@inproceedings{chen2022MSA3D,
-      title={Multi-Scale Attention 3D Convolutional Network for Multimodal Gesture Recognition}, 
-      author={Huizhou Chen and Yunnan Li and Huijuan Fang and Wentian Xin and Zixiang Lu and Qiguang Miao},
-      journal={Sensors},
-      year={2022},
+@article{chen2022multi,
+  title={Multi-Scale Attention 3D Convolutional Network for Multimodal Gesture Recognition},
+  author={Chen, Huizhou and Li, Yunan and Fang, Huijuan and Xin, Wentian and Lu, Zixiang and Miao, Qiguang},
+  journal={Sensors},
+  volume={22},
+  number={6},
+  pages={2405},
+  year={2022},
+  publisher={MDPI}
 }
 ```
